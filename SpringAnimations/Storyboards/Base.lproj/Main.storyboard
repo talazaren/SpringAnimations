@@ -83,6 +83,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ekV-51-h24" secondAttribute="trailing" constant="40" id="vei-gj-7rA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animatedView" destination="ekV-51-h24" id="se9-IB-eT1"/>
+                        <outlet property="curveLabel" destination="olj-F8-swl" id="kIA-pc-n4s"/>
+                        <outlet property="delayLabel" destination="Vtu-7Q-iL6" id="4xZ-EW-t1F"/>
+                        <outlet property="durationLabel" destination="b6C-uX-1Nt" id="fnB-Ba-A9o"/>
+                        <outlet property="forceLabel" destination="JHC-uc-H1g" id="QTp-fM-n0O"/>
+                        <outlet property="presetLabel" destination="aYI-Bv-KEv" id="YeU-00-xyi"/>
+                        <outlet property="runButton" destination="Esd-E7-AKj" id="eNi-sz-G3Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
